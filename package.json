@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx -y only-allow pnpm"
+  },
+  "engines": {
+    "node": ">=16.8.0",
+    "npm": "use pnpm",
+    "pnpm": ">=7",
+    "yarn": "use pnpm"
   },
   "repository": {
     "type": "git",
@@ -12,7 +18,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "Apache-2.0",
+  "private": true,
   "bugs": {
     "url": "https://github.com/kkkaoru/frontend-configs/issues"
   },
