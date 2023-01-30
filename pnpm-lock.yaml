@@ -17,15 +17,15 @@ importers:
       '@commitlint/cz-commitlint': 17.4.2
       commitizen: 4.3.0
       husky: 8.0.3
-      inquirer: 8.0.0
+      inquirer: 8.2.5
       lint-staged: 13.1.0
     dependencies:
       '@commitlint/cli': 17.4.2
       '@commitlint/config-conventional': 17.4.2
-      '@commitlint/cz-commitlint': 17.4.2_i5xwihbphun2hjuyt7nklbgfey
+      '@commitlint/cz-commitlint': 17.4.2_i4x6owxztfhigiiqlxwntt4k24
       commitizen: 4.3.0
       husky: 8.0.3
-      inquirer: 8.0.0
+      inquirer: 8.2.5
       lint-staged: 13.1.0
 
 packages:
@@ -86,7 +86,7 @@ packages:
       ajv: 8.12.0
     dev: false
 
-  /@commitlint/cz-commitlint/17.4.2_i5xwihbphun2hjuyt7nklbgfey:
+  /@commitlint/cz-commitlint/17.4.2_i4x6owxztfhigiiqlxwntt4k24:
     resolution: {integrity: sha512-KNNuY6pQq5alnyJjzXyoQ7eeymRe5KXfSn/QTh6wto1p9gEBPxkrTZE2rX4S6pCpZh8jEFEm0KEqgYDb4KGLxg==}
     engines: {node: '>=v14'}
     peerDependencies:
@@ -98,7 +98,7 @@ packages:
       '@commitlint/types': 17.4.0
       chalk: 4.1.2
       commitizen: 4.3.0
-      inquirer: 8.0.0
+      inquirer: 8.2.5
       lodash.isplainobject: 4.0.6
       word-wrap: 1.2.3
     transitivePeerDependencies:
@@ -1054,25 +1054,6 @@ packages:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
     dev: false
 
-  /inquirer/8.0.0:
-    resolution: {integrity: sha512-ON8pEJPPCdyjxj+cxsYRe6XfCJepTxANdNnTebsTuQgXpRyZRRT9t4dJwjRubgmvn20CLSEnozRUayXyM9VTXA==}
-    engines: {node: '>=8.0.0'}
-    dependencies:
-      ansi-escapes: 4.3.2
-      chalk: 4.1.2
-      cli-cursor: 3.1.0
-      cli-width: 3.0.0
-      external-editor: 3.1.0
-      figures: 3.2.0
-      lodash: 4.17.21
-      mute-stream: 0.0.8
-      run-async: 2.4.1
-      rxjs: 6.6.7
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      through: 2.3.8
-    dev: false
-
   /inquirer/8.2.5:
     resolution: {integrity: sha512-QAgPDQMEgrDssk1XiwwHoOGYF9BAbUcc1+j+FhEvaOt8/cKRqyLn0U5qA6F74fGhTMGxf92pOvPBeh29jQJDTQ==}
     engines: {node: '>=12.0.0'}
@@ -1746,13 +1727,6 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: false
 
-  /rxjs/6.6.7:
-    resolution: {integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==}
-    engines: {npm: '>=2.0.0'}
-    dependencies:
-      tslib: 1.14.1
-    dev: false
-
   /rxjs/7.8.0:
     resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
@@ -2002,10 +1976,6 @@ packages:
       typescript: 4.9.4
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
-    dev: false
-
-  /tslib/1.14.1:
-    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: false
 
   /tslib/2.5.0:
