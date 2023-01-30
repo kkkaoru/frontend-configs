@@ -1,0 +1,33 @@
+{
+  "name": "frontend-configs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "commit-msg": "commitlint --edit",
+    "prepare": "husky install",
+    "preinstall": "npx -y only-allow pnpm"
+  },
+  "engines": {
+    "node": ">=16.13",
+    "npm": "use pnpm",
+    "pnpm": ">=7",
+    "yarn": "use pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kkkaoru/frontend-configs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/kkkaoru/frontend-configs/issues"
+  },
+  "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
+  "devDependencies": {
+    "@kkkaoru/git-hooks": "workspace:*",
+    "turbo": "1.7.0"
+  }
+}
