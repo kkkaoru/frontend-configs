@@ -28,6 +28,6 @@
   "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
   "devDependencies": {
     "@kkkaoru/git-hooks": "workspace:*",
-    "turbo": "1.7.0"
+    "turbo": "1.7.3"
   }
 }
