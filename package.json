@@ -8,12 +8,14 @@
     "commit-msg": "commitlint --edit",
     "prepare": "husky install",
     "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish",
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
     "node": "18.14.0",
     "npm": "use pnpm",
-    "pnpm": "7.26.3",
+    "pnpm": ">=7",
     "yarn": "use pnpm"
   },
   "repository": {
@@ -22,6 +24,7 @@
   },
   "keywords": [],
   "author": "",
+  "license": "Apache-2.0",
   "private": true,
   "bugs": {
     "url": "https://github.com/kkkaoru/frontend-configs/issues"
