@@ -7,10 +7,11 @@
     "commit": "cz",
     "commit-msg": "commitlint --edit",
     "prepare": "husky install",
+    "changeset": "changeset",
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
-    "node": ">=16.13",
+    "node": "18.14.0",
     "npm": "use pnpm",
     "pnpm": ">=7",
     "yarn": "use pnpm"
@@ -28,6 +29,6 @@
   "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
   "devDependencies": {
     "@kkkaoru/git-hooks": "workspace:*",
-    "turbo": "1.7.3"
+    "@kkkaoru/monorepo-root": "workspace:*"
   }
 }
