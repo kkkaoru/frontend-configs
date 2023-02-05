@@ -6,7 +6,8 @@ on:
       - main
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
-
+permissions:
+  contents: write
 jobs:
   release:
     name: Release
@@ -14,6 +15,10 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+      - name: Setup git config
+        run: |
+             git config --global user.email "ockacru+git@gmail.com"
+             git config --global user.name "changesets-bot"
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -25,12 +30,11 @@ jobs:
           cache: 'pnpm'
       - name: Install
         run: pnpm install --frozen-lockfile
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
           publish: pnpm run release
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
