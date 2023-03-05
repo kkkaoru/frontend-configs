@@ -5,7 +5,7 @@
   "keywords": [],
   "files": [
     "dist",
-    "sr"
+    "src"
   ],
   "private": true,
   "main": "./dist/example-utils.umd.js",
