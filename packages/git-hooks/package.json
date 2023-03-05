@@ -12,9 +12,9 @@
   },
   "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
   "dependencies": {
-    "@commitlint/cli": "17.4.2",
-    "@commitlint/config-conventional": "17.4.2",
-    "@commitlint/cz-commitlint": "17.4.2",
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cz-commitlint": "17.4.4",
     "commitizen": "4.3.0",
     "husky": "8.0.3",
     "inquirer": "8.2.5",
