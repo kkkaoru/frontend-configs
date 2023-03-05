@@ -2,7 +2,12 @@
   "name": "@kkkaoru/tsconfig",
   "version": "0.0.0",
   "description": "@kkkaoru frontend tsconfig",
-  "main": "index.js",
+  "main": "base.json",
+  "author": {
+    "name": "kkkaoru",
+    "email": "ockacru+git@gmail.com",
+    "url": "https://twitter.com/kkk4oru"
+  },
   "repository": "https://github.com/kkkaoru/frontend-configs",
   "bugs": {
     "url": "https://github.com/kkkaoru/frontend-configs/issues"

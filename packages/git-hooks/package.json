@@ -5,7 +5,12 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "Apache-2.0",
+  "license": "MIT",
+  "repository": "https://github.com/kkkaoru/frontend-configs",
+  "bugs": {
+    "url": "https://github.com/kkkaoru/frontend-configs/issues"
+  },
+  "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
   "dependencies": {
     "@commitlint/cli": "17.4.2",
     "@commitlint/config-conventional": "17.4.2",

@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "",
-  "license": "Apache-2.0",
+  "author": {
+    "name": "kkkaoru",
+    "email": "ockacru+git@gmail.com",
+    "url": "https://twitter.com/kkk4oru"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/kkkaoru/frontend-configs",
+  "bugs": {
+    "url": "https://github.com/kkkaoru/frontend-configs/issues"
+  },
+  "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
   "dependencies": {
     "@changesets/cli": "2.26.0",
     "turbo": "1.7.3"
