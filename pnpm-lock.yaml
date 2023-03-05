@@ -7,14 +7,23 @@ importers:
       '@kkkaoru/git-hooks': workspace:*
       '@kkkaoru/monorepo-root': workspace:*
       '@kkkaoru/tsconfig': workspace:*
+      '@kkkaoru/vite-config': workspace:1.0.0
+      '@types/react': 18.0.27
+      react: 18.2.0
+      react-dom: 18.2.0
     devDependencies:
       '@kkkaoru/git-hooks': link:packages/git-hooks
       '@kkkaoru/monorepo-root': link:packages/monorepo-root
       '@kkkaoru/tsconfig': link:packages/tsconfig
+      '@kkkaoru/vite-config': link:packages/vite-config
+      '@types/react': 18.0.27
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   apps/my-app:
     specifiers:
-      '@kkkaoru/example-react-components': workspace:1.0.0
+      '@kkkaoru/example-react-components': workspace:*
+      '@kkkaoru/example-utils': workspace:*
       '@next/font': 13.1.6
       '@types/node': 18.13.0
       '@types/react': 18.0.27
@@ -27,6 +36,7 @@ importers:
       typescript: 4.9.5
     dependencies:
       '@kkkaoru/example-react-components': link:../../packages/example-react-components
+      '@kkkaoru/example-utils': link:../../packages/example-utils
       '@next/font': 13.1.6
       '@types/node': 18.13.0
       '@types/react': 18.0.27
@@ -39,18 +49,10 @@ importers:
       typescript: 4.9.5
 
   packages/example-react-components:
-    specifiers:
-      '@kkkaoru/vite-config': workspace:1.0.0
-      '@types/react': 18.0.27
-      react: 18.2.0
-      react-dom: 18.2.0
-      typescript: 4.9.5
-    devDependencies:
-      '@kkkaoru/vite-config': link:../vite-config
-      '@types/react': 18.0.27
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      typescript: 4.9.5
+    specifiers: {}
+
+  packages/example-utils:
+    specifiers: {}
 
   packages/git-hooks:
     specifiers:
@@ -4937,6 +4939,7 @@ packages:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: false
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}

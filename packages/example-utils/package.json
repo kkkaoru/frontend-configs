@@ -1,0 +1,23 @@
+{
+  "name": "@kkkaoru/example-utils",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "dist",
+    "sr"
+  ],
+  "private": true,
+  "main": "./dist/example-utils.umd.js",
+  "module": "./dist/example-utils.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/example-utils.mjs",
+      "require": "./example-utils.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  }
+}
