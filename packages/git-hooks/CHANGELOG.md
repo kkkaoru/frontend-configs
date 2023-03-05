@@ -1,5 +1,11 @@
 # @kkkaoru/git-hooks
 
+## 3.1.0
+
+### Minor Changes
+
+- setup vite
+
 ## 3.0.1
 
 ### Patch Changes

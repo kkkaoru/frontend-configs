@@ -1,23 +1,19 @@
 {
-  "name": "@kkkaoru/monorepo-root",
-  "version": "3.1.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
+  "name": "@kkkaoru/tsconfig",
+  "version": "1.0.0",
+  "description": "@kkkaoru frontend tsconfig",
+  "main": "base.json",
   "author": {
     "name": "kkkaoru",
     "email": "ockacru+git@gmail.com",
     "url": "https://twitter.com/kkk4oru"
   },
-  "license": "MIT",
   "repository": "https://github.com/kkkaoru/frontend-configs",
   "bugs": {
     "url": "https://github.com/kkkaoru/frontend-configs/issues"
   },
   "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
   "dependencies": {
-    "@changesets/changelog-github": "0.4.8",
-    "@changesets/cli": "2.26.0",
-    "turbo": "1.7.3"
+    "typescript": "4.9.4"
   }
 }
