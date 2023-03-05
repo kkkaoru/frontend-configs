@@ -19,6 +19,6 @@ module.exports = ()=>{
     .filter((packages) => {
       return packages.name.includes(atMarkPrefix);
     })
-    .map((package) => removeAtMarkPrefix(package.name));
+    .map((ownPackage) => removeAtMarkPrefix(ownPackage.name));
   return packageNames;
 }

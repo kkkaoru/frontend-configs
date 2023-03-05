@@ -3,11 +3,11 @@ const { findPackageNames } = require('@kkkaoru/git-hooks');
 
 module.exports = {
   ...commitLint,
-  // rules: {
-  //   'scope-enum': [
-  //     2,
-  //     'always',
-  //     findPackageNames(),
-  //   ],
-  // },
+  rules: {
+    'scope-enum': [
+      2,
+      'always',
+      findPackageNames(),
+    ],
+  },
 };
