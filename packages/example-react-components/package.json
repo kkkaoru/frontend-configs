@@ -1,0 +1,26 @@
+{
+  "name": "@kkkaoru/example-react-components",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "private": true,
+  "main": "./dist/example-components.umd.js",
+  "module": "./dist/example-components.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/example-components.mjs",
+      "require": "./dist/example-components.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@kkkaoru/vite-config": "workspace:1.0.0",
+    "@types/react": "18.0.27",
+    "typescript": "4.9.5"
+  }
+}
