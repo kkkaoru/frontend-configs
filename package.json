@@ -32,6 +32,7 @@
   "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
   "devDependencies": {
     "@kkkaoru/git-hooks": "workspace:*",
-    "@kkkaoru/monorepo-root": "workspace:*"
+    "@kkkaoru/monorepo-root": "workspace:*",
+    "@kkkaoru/tsconfig": "workspace:*"
   }
 }
