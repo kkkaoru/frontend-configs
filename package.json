@@ -11,6 +11,8 @@
     "version": "changeset version",
     "release": "changeset publish",
     "build": "turbo run build",
+    "prettier": "turbo run prettier",
+    "lint-staged": "lint-staged",
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
@@ -36,6 +38,7 @@
     "@kkkaoru/monorepo-root": "workspace:*",
     "@kkkaoru/tsconfig": "workspace:*",
     "@kkkaoru/vite-config": "workspace:*",
+    "@kkkaoru/prettier-config": "workspace:*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "@types/react": "18.0.28"
