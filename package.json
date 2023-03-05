@@ -14,7 +14,7 @@
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
-    "node": "18.14.0",
+    "node": "18.14.2",
     "npm": "use pnpm",
     "pnpm": ">=7",
     "yarn": "use pnpm"
