@@ -1,6 +1,6 @@
 {
   "name": "@kkkaoru/example-react-components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "keywords": [],
   "files": [
@@ -20,7 +20,7 @@
   "scripts": {
     "build": "vite build"
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "react": "^17 || ^18",
     "react-dom": "^17 || ^18"
   }
