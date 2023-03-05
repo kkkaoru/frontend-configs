@@ -9,6 +9,8 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 permissions:
   contents: write
+env:
+  HUSKY: '0'
 jobs:
   release:
     name: Release
