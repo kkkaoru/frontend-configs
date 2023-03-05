@@ -91,12 +91,12 @@ importers:
   packages/vite-config:
     specifiers:
       '@vitejs/plugin-react-swc': 3.2.0
-      vite: 4.0.4
+      vite: 4.1.4
       vite-plugin-dts: 2.0.2
     dependencies:
-      '@vitejs/plugin-react-swc': 3.2.0_vite@4.0.4
-      vite: 4.0.4
-      vite-plugin-dts: 2.0.2_vite@4.0.4
+      '@vitejs/plugin-react-swc': 3.2.0_vite@4.1.4
+      vite: 4.1.4
+      vite-plugin-dts: 2.0.2_vite@4.1.4
 
 packages:
 
@@ -1339,13 +1339,13 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: false
 
-  /@vitejs/plugin-react-swc/3.2.0_vite@4.0.4:
+  /@vitejs/plugin-react-swc/3.2.0_vite@4.1.4:
     resolution: {integrity: sha512-IcBoXL/mcH7JdQr/nfDlDwTdIaH8Rg7LpfQDF4nAht+juHWIuv6WhpKPCSfY4+zztAaB07qdBoFz1XCZsgo3pQ==}
     peerDependencies:
       vite: ^4
     dependencies:
       '@swc/core': 1.3.35
-      vite: 4.0.4
+      vite: 4.1.4
     dev: false
 
   /JSONStream/1.3.5:
@@ -5032,7 +5032,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /vite-plugin-dts/2.0.2_vite@4.0.4:
+  /vite-plugin-dts/2.0.2_vite@4.1.4:
     resolution: {integrity: sha512-i3HBlrdqE2FQxQqrNwFj9P2ei/I7lt/d3Q8NOE1JCz/gNYhNf/oUeIJamIdWQUNQGhUd/Y6mtpm3kOYPw1gz8Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -5048,15 +5048,15 @@ packages:
       kolorist: 1.7.0
       magic-string: 0.29.0
       ts-morph: 17.0.1
-      vite: 4.0.4
+      vite: 4.1.4
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: false
 
-  /vite/4.0.4:
-    resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
+  /vite/4.1.4:
+    resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
