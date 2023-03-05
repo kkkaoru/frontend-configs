@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
   "dependencies": {
+    "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.0",
     "turbo": "1.7.3"
   }
