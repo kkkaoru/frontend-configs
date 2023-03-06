@@ -1,2 +1,2 @@
 /** @type {string[]} */
-module.exports = ['*.js'];
+module.exports = ['*.js', 'dist/**/*.ts'];
