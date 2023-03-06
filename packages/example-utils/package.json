@@ -18,6 +18,8 @@
     }
   },
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "prettier": "prettier --write --check src",
+    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx src"
   }
 }
