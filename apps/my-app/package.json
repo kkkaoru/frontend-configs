@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "prettier": "prettier --write --check src",
     "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx src"
   },
