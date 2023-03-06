@@ -12,6 +12,7 @@
     "release": "changeset publish",
     "build": "turbo run build",
     "prettier": "turbo run prettier",
+    "eslint": "turbo run eslint",
     "lint-staged": "lint-staged",
     "preinstall": "npx -y only-allow pnpm"
   },
@@ -39,8 +40,10 @@
     "@kkkaoru/tsconfig": "workspace:*",
     "@kkkaoru/vite-config": "workspace:*",
     "@kkkaoru/prettier-config": "workspace:*",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@types/react": "18.0.28"
+    "@kkkaoru/eslint-config": "workspace:*",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/node": "18.14.6",
+    "next": "13.2.3"
   }
 }
