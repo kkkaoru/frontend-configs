@@ -6,7 +6,6 @@
   "scripts": {
     "commit": "cz",
     "commit-msg": "commitlint --edit",
-    "prepare": "husky install",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "changeset publish",
@@ -14,6 +13,8 @@
     "prettier": "turbo run prettier",
     "eslint": "turbo run eslint",
     "lint-staged": "lint-staged",
+    "husky-install": "husky install",
+    "prepare": "pnpm run husky-install & pnpm run build",
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
