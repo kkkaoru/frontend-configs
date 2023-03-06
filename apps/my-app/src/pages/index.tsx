@@ -4,7 +4,7 @@ import { useMemo } from 'react';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  const text = useMemo(() => concatText('BAR', 'BAZ'), []);
+  const text = useMemo<string>(() => concatText('BAR', 'BAZ'), []);
   return (
     <main className={styles.main}>
       <div>HELLO WORLD</div>
