@@ -6,11 +6,15 @@
   "scripts": {
     "commit": "cz",
     "commit-msg": "commitlint --edit",
-    "prepare": "husky install",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "changeset publish",
     "build": "turbo run build",
+    "prettier": "turbo run prettier",
+    "eslint": "turbo run eslint",
+    "lint-staged": "lint-staged",
+    "husky-install": "husky install",
+    "prepare": "pnpm run husky-install & pnpm run build",
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
@@ -36,8 +40,13 @@
     "@kkkaoru/monorepo-root": "workspace:*",
     "@kkkaoru/tsconfig": "workspace:*",
     "@kkkaoru/vite-config": "workspace:*",
+    "@kkkaoru/prettier-config": "workspace:*",
+    "@kkkaoru/eslint-config": "workspace:*",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/node": "18.14.6",
+    "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@types/react": "18.0.28"
+    "react-dom": "18.2.0"
   }
 }
