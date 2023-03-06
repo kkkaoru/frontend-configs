@@ -13,12 +13,10 @@ function removeAtMarkPrefix(packageName) {
 /**
  * @returns {string[]} package names
  */
-module.exports = ()=>{
+module.exports = () => {
   const pnpmListResult = JSON.parse(execSync('pnpm list --recursive --depth -1 --json').toString('utf8'));
   const packageNames = pnpmListResult
-    .filter((packages) => {
-      return packages.name.includes(atMarkPrefix);
-    })
+    .filter((packages) => packages.name.includes(atMarkPrefix))
     .map((ownPackage) => removeAtMarkPrefix(ownPackage.name));
   return packageNames;
-}
+};
