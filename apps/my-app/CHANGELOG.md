@@ -1,5 +1,17 @@
 # my-app
 
+## 0.3.0
+
+### Minor Changes
+
+- [#21](https://github.com/kkkaoru/frontend-configs/pull/21) [`fcabb75`](https://github.com/kkkaoru/frontend-configs/commit/fcabb755e094d4fd023385f1a78082d089f7ebd5) Thanks [@kkkaoru](https://github.com/kkkaoru)! - use eslint and prettier
+
+### Patch Changes
+
+- Updated dependencies [[`fcabb75`](https://github.com/kkkaoru/frontend-configs/commit/fcabb755e094d4fd023385f1a78082d089f7ebd5)]:
+  - @kkkaoru/example-react-components@1.2.0
+  - @kkkaoru/example-utils@1.2.0
+
 ## 0.2.1
 
 ### Patch Changes
