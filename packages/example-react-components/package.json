@@ -5,7 +5,7 @@
   "keywords": [],
   "files": [
     "dist",
-    "sr"
+    "src"
   ],
   "private": true,
   "main": "./dist/example-react-components.umd.js",
@@ -19,7 +19,8 @@
   },
   "scripts": {
     "build": "vite build",
-    "prettier": "prettier --write --check src"
+    "prettier": "prettier --write --check src",
+    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx src"
   },
   "peerDependencies": {
     "react": "^17 || ^18",
