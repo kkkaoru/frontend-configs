@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write --check src",
-    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx src"
+    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx -c ../../.eslintrc.js src"
   },
   "dependencies": {
     "@kkkaoru/example-react-components": "workspace:*",
