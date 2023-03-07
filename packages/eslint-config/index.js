@@ -1,4 +1,9 @@
+const base = require('./typescript-base');
+const baseWithNext = require('./typescript-next-without-test');
+const withJest = require('./typescript-with-jest');
+
 module.exports = {
-  eslintConfigNormal: require('./eslint-normal'),
-  eslintConfigWithNext: require('./eslint-with-next'),
+  base,
+  baseWithNext,
+  withJest,
 };
