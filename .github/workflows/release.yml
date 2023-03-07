@@ -16,6 +16,8 @@ permissions:
   pull-requests: write
 env:
   HUSKY: '0'
+  TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 jobs:
   release:
     name: Release
