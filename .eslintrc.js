@@ -1,5 +1,9 @@
-const { eslintConfigWithNext } = require('@kkkaoru/eslint-config');
+const { withVitest } = require('@kkkaoru/eslint-config');
 
 module.exports = {
-  ...eslintConfigWithNext,
+  ...withVitest,
+  parserOptions: {
+    ...withVitest.parserOptions,
+    tsconfigRootDir: __dirname,
+  },
 };
