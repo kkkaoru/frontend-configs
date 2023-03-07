@@ -2,5 +2,4 @@
 module.exports = {
   browser: true,
   node: true,
-  // 'jest/globals': true,
 };

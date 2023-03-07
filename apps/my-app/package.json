@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "next-build": "next build",
     "start": "next start",
     "prettier": "prettier --write --check src",
     "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx -c ../../.eslintrc.js src"

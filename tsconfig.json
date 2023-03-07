@@ -1,5 +1,5 @@
 {
-  "extends": "@kkkaoru/tsconfig/base.json",
+  "extends": "@kkkaoru/tsconfig/base-with-vitest.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }
