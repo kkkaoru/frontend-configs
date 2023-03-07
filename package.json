@@ -14,6 +14,7 @@
     "eslint": "turbo run eslint",
     "lint-staged": "lint-staged",
     "husky-install": "husky install",
+    "test": "turbo run test",
     "prepare": "pnpm run husky-install & pnpm run build",
     "preinstall": "npx -y only-allow pnpm"
   },
