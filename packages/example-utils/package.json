@@ -20,6 +20,7 @@
   "scripts": {
     "build": "vite build",
     "prettier": "prettier --write --check src",
-    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx src"
+    "eslint": "eslint -c ../../.eslintrc.js --max-warnings=0 --fix --ext .ts,.tsx src",
+    "test": "vitest run --config ../../vitest.config.js src"
   }
 }
