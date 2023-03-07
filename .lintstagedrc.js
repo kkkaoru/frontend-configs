@@ -1,3 +1,3 @@
 const { lintStaged } = require('@kkkaoru/git-hooks');
 
-module.exports = lintStaged.eslintPrettier;
+module.exports = lintStaged.eslintPrettierVitest;
