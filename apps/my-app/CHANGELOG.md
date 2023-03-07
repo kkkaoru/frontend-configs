@@ -1,5 +1,12 @@
 # my-app
 
+## 0.3.1
+
+### Patch Changes
+
+- Updated dependencies [[`310b546`](https://github.com/kkkaoru/frontend-configs/commit/310b546406d8fb604187bea465abc24c3e411180)]:
+  - @kkkaoru/example-utils@1.2.1
+
 ## 0.3.0
 
 ### Minor Changes

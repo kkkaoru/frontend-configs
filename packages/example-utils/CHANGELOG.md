@@ -1,5 +1,11 @@
 # @kkkaoru/example-utils
 
+## 1.2.1
+
+### Patch Changes
+
+- [#27](https://github.com/kkkaoru/frontend-configs/pull/27) [`310b546`](https://github.com/kkkaoru/frontend-configs/commit/310b546406d8fb604187bea465abc24c3e411180) Thanks [@kkkaoru](https://github.com/kkkaoru)! - Add vitest
+
 ## 1.2.0
 
 ### Minor Changes
