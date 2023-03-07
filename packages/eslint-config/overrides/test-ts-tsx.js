@@ -8,7 +8,6 @@ module.exports = {
     'max-lines': 'off',
     'max-depth': 'off',
     'max-lines-per-function': 'off',
-    'jest/consistent-test-it': ['error', { fn: 'it' }],
     '@typescript-eslint/no-unsafe-return': 'off',
     'import/no-extraneous-dependencies': 'off',
   },
