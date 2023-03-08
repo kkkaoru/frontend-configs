@@ -1,5 +1,11 @@
 # @kkkaoru/vite-config
 
+## 1.0.2
+
+### Patch Changes
+
+- [#31](https://github.com/kkkaoru/frontend-configs/pull/31) [`02735d7`](https://github.com/kkkaoru/frontend-configs/commit/02735d785f222c541b01985bff1685dac05cf60b) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency vite-plugin-dts to v2.1.0
+
 ## 1.0.1
 
 ### Patch Changes
