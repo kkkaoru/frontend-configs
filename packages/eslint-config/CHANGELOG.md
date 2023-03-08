@@ -1,5 +1,11 @@
 # @kkkaoru/eslint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- [#23](https://github.com/kkkaoru/frontend-configs/pull/23) [`c055c35`](https://github.com/kkkaoru/frontend-configs/commit/c055c35dd04c2afb6e6389dbf73b499308cf7ee9) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update typescript-eslint monorepo to v5.54.1
+
 ## 1.0.1
 
 ### Patch Changes
