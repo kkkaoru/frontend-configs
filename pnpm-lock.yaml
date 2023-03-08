@@ -146,11 +146,11 @@ importers:
     specifiers:
       '@vitejs/plugin-react-swc': 3.2.0
       vite: 4.1.4
-      vite-plugin-dts: 2.0.2
+      vite-plugin-dts: 2.1.0
     dependencies:
       '@vitejs/plugin-react-swc': 3.2.0_vite@4.1.4
       vite: 4.1.4
-      vite-plugin-dts: 2.0.2_vite@4.1.4
+      vite-plugin-dts: 2.1.0_vite@4.1.4
 
   packages/vitest-config:
     specifiers:
@@ -5590,8 +5590,8 @@ packages:
       - supports-color
       - terser
 
-  /vite-plugin-dts/2.0.2_vite@4.1.4:
-    resolution: {integrity: sha512-i3HBlrdqE2FQxQqrNwFj9P2ei/I7lt/d3Q8NOE1JCz/gNYhNf/oUeIJamIdWQUNQGhUd/Y6mtpm3kOYPw1gz8Q==}
+  /vite-plugin-dts/2.1.0_vite@4.1.4:
+    resolution: {integrity: sha512-Vw0FdCuM3VLR4hTFHh0yMEzfwI7NyFvPIMFwvE+Q0t4qtoHIfYOP/JXs7nTnHuQk87FSjlhGeIJ1fLBcktgPgA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
