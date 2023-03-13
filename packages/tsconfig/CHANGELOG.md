@@ -1,5 +1,11 @@
 # @kkkaoru/tsconfig
 
+## 1.0.2
+
+### Patch Changes
+
+- [`4a14e65`](https://github.com/kkkaoru/frontend-configs/commit/4a14e6577cb603770266ddf2b6de65fa2832f570) Thanks [@kkkaoru](https://github.com/kkkaoru)! - include vitest tsconfig
+
 ## 1.0.1
 
 ### Patch Changes
