@@ -1,5 +1,11 @@
 # @kkkaoru/tsconfig
 
+## 1.0.4
+
+### Patch Changes
+
+- [#38](https://github.com/kkkaoru/frontend-configs/pull/38) [`9445ea6`](https://github.com/kkkaoru/frontend-configs/commit/9445ea65bb103bd44268e1fe8f43a941e15e9450) Thanks [@kkkaoru](https://github.com/kkkaoru)! - optimize packages
+
 ## 1.0.3
 
 ### Patch Changes
