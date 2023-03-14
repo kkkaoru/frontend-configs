@@ -16,5 +16,6 @@ module.exports = {
       lines: c2,
       thresholdAutoUpdate: true,
     },
+    clearMocks: true,
   },
 };
