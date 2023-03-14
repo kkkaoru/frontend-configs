@@ -4,6 +4,7 @@ const sliceTsOverrides = require('./slice-ts');
 const testTsxTsOverrides = require('./test-ts-tsx');
 const pageTsxOverrides = require('./page-tsx');
 const vitestConfigTsOverrides = require('./vitest-config-ts');
+const packagesTsOverrides = require('./packages-ts');
 
 /** @type import('eslint').Linter.ConfigOverride[] */
 module.exports = [
@@ -13,4 +14,5 @@ module.exports = [
   sliceTsOverrides,
   pageTsxOverrides,
   vitestConfigTsOverrides,
+  packagesTsOverrides,
 ];
