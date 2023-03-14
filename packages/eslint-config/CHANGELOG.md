@@ -1,5 +1,11 @@
 # @kkkaoru/eslint-config
 
+## 1.0.5
+
+### Patch Changes
+
+- add off rules
+
 ## 1.0.4
 
 ### Patch Changes
