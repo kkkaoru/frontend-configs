@@ -17,8 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "@vitejs/plugin-react-swc": "3.2.0",
-    "@vitest/coverage-c8": "0.29.2",
-    "vitest": "0.29.2"
+    "@vitest/coverage-c8": "0.29.7",
+    "vitest": "0.29.7"
   },
   "devDependencies": {
     "vite": "4.1.4"
