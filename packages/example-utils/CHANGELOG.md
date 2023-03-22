@@ -1,5 +1,11 @@
 # @kkkaoru/example-utils
 
+## 1.2.2
+
+### Patch Changes
+
+- update packages
+
 ## 1.2.1
 
 ### Patch Changes

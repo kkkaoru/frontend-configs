@@ -1,5 +1,11 @@
 # @kkkaoru/prettier-config
 
+## 1.0.1
+
+### Patch Changes
+
+- update packages
+
 ## 1.0.0
 
 ### Major Changes

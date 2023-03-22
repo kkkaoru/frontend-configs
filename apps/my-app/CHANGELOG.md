@@ -1,5 +1,15 @@
 # my-app
 
+## 0.3.2
+
+### Patch Changes
+
+- update packages
+
+- Updated dependencies []:
+  - @kkkaoru/example-react-components@1.2.1
+  - @kkkaoru/example-utils@1.2.2
+
 ## 0.3.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@kkkaoru/tsconfig",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "@kkkaoru frontend tsconfig",
   "main": "base.json",
   "author": {

@@ -1,5 +1,11 @@
 # @kkkaoru/git-hooks
 
+## 3.2.2
+
+### Patch Changes
+
+- update packages
+
 ## 3.2.1
 
 ### Patch Changes
