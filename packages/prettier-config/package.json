@@ -8,6 +8,6 @@
   },
   "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
   "dependencies": {
-    "prettier": "2.8.6"
+    "prettier": "2.8.7"
   }
 }
