@@ -72,7 +72,7 @@ importers:
       eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
       eslint-plugin-unicorn: 46.0.0
-      eslint-plugin-vitest: 0.0.56
+      eslint-plugin-vitest: 0.0.57
       eslint-plugin-vitest-globals: 1.3.1
       typescript: 5.0.2
     dependencies:
@@ -90,7 +90,7 @@ importers:
       eslint-plugin-react: 7.32.2_eslint@8.36.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.36.0
       eslint-plugin-unicorn: 46.0.0_eslint@8.36.0
-      eslint-plugin-vitest: 0.0.56_j4766f7ecgqbon3u7zlxn5zszu
+      eslint-plugin-vitest: 0.0.57_j4766f7ecgqbon3u7zlxn5zszu
       eslint-plugin-vitest-globals: 1.3.1
     devDependencies:
       '@types/eslint': 8.21.3
@@ -2763,8 +2763,8 @@ packages:
     resolution: {integrity: sha512-ELBqLfu/ZAwVHE1uEvj+Z06o4WnaD+5IcwW/OHQ5qVPA7i7mZexnUBj+04BF60rY7pb3ljRgJRsK+rCTmSS/5g==}
     dev: false
 
-  /eslint-plugin-vitest/0.0.56_j4766f7ecgqbon3u7zlxn5zszu:
-    resolution: {integrity: sha512-WAv+P99GZZYi0njqHGAvo5DtBQGKZLjwdp9x8EmHcXGwJ/ObbdhBske2GM1bzcKlyVyHF5/+oEq3JEwBObMYtA==}
+  /eslint-plugin-vitest/0.0.57_j4766f7ecgqbon3u7zlxn5zszu:
+    resolution: {integrity: sha512-+Ab+QrgjkqwIu7DqtW6D+/F+HmlyQ0dV78jOWs12RscKsFdXdX4IU0u3zM/sXN6ju2DJN4wwxx2/i+eIHkcWpg==}
     engines: {node: 14.x || >= 16}
     peerDependencies:
       eslint: '>=8.0.0'
