@@ -12,8 +12,8 @@ importers:
       '@kkkaoru/vite-config': workspace:*
       '@kkkaoru/vitest-config': workspace:*
       '@types/node': 18.14.6
-      '@types/react': 18.0.30
-      '@types/react-dom': 18.0.11
+      '@types/react': 18.2.2
+      '@types/react-dom': 18.2.3
       eslint: 8.36.0
       next: 13.2.4
       react: 18.2.0
@@ -28,8 +28,8 @@ importers:
       '@kkkaoru/vite-config': link:packages/vite-config
       '@kkkaoru/vitest-config': link:packages/vitest-config
       '@types/node': 18.14.6
-      '@types/react': 18.0.30
-      '@types/react-dom': 18.0.11
+      '@types/react': 18.2.2
+      '@types/react-dom': 18.2.3
       eslint: 8.36.0
       next: 13.2.4_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -1329,14 +1329,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.11:
-    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+  /@types/react-dom/18.2.3:
+    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
     dependencies:
-      '@types/react': 18.0.30
+      '@types/react': 18.2.2
     dev: true
 
-  /@types/react/18.0.30:
-    resolution: {integrity: sha512-AnME2cHDH11Pxt/yYX6r0w448BfTwQOLEhQEjCdwB7QskEI7EKtxhGUsExTQe/MsY3D9D5rMtu62WRocw9A8FA==}
+  /@types/react/18.2.2:
+    resolution: {integrity: sha512-4GZH3GLuqdZbDvOW5Pqqe7jgsDrKwkJfZMZLwFcgoz3CVDSvnMeG/Ihe44IbZ5Mqhh1fyTh5e44z6pNjIzzV8g==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
