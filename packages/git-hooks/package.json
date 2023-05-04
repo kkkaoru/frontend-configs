@@ -12,8 +12,8 @@
   },
   "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
   "dependencies": {
-    "@commitlint/cli": "17.6.1",
-    "@commitlint/config-conventional": "17.6.1",
+    "@commitlint/cli": "17.6.3",
+    "@commitlint/config-conventional": "17.6.3",
     "@commitlint/cz-commitlint": "17.5.0",
     "commitizen": "4.3.0",
     "husky": "8.0.3",
