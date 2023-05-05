@@ -145,25 +145,25 @@ importers:
   packages/vite-config:
     specifiers:
       '@vitejs/plugin-react-swc': 3.3.0
-      vite: 4.3.4
+      vite: 4.3.5
       vite-plugin-dts: 2.3.0
     dependencies:
-      '@vitejs/plugin-react-swc': 3.3.0_vite@4.3.4
-      vite: 4.3.4
-      vite-plugin-dts: 2.3.0_vite@4.3.4
+      '@vitejs/plugin-react-swc': 3.3.0_vite@4.3.5
+      vite: 4.3.5
+      vite-plugin-dts: 2.3.0_vite@4.3.5
 
   packages/vitest-config:
     specifiers:
       '@vitejs/plugin-react-swc': 3.3.0
       '@vitest/coverage-c8': 0.29.7
-      vite: 4.3.4
+      vite: 4.3.5
       vitest: 0.29.7
     dependencies:
-      '@vitejs/plugin-react-swc': 3.3.0_vite@4.3.4
+      '@vitejs/plugin-react-swc': 3.3.0_vite@4.3.5
       '@vitest/coverage-c8': 0.29.7_vitest@0.29.7
       vitest: 0.29.7
     devDependencies:
-      vite: 4.3.4
+      vite: 4.3.5
 
 packages:
 
@@ -1520,13 +1520,13 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: false
 
-  /@vitejs/plugin-react-swc/3.3.0_vite@4.3.4:
+  /@vitejs/plugin-react-swc/3.3.0_vite@4.3.5:
     resolution: {integrity: sha512-Ycg+n2eyCOTpn/wRy+evVo859+hw7qCj9iaX5CMny6x1fx1Uoq0xBG+a98lFtwLNGfGEnpI0F26YigRuxCRkwg==}
     peerDependencies:
       vite: ^4
     dependencies:
       '@swc/core': 1.3.56
-      vite: 4.3.4
+      vite: 4.3.5
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: false
@@ -5631,7 +5631,7 @@ packages:
       mlly: 1.1.1
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.4_@types+node@18.14.6
+      vite: 4.3.5_@types+node@18.14.6
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5641,7 +5641,7 @@ packages:
       - supports-color
       - terser
 
-  /vite-plugin-dts/2.3.0_vite@4.3.4:
+  /vite-plugin-dts/2.3.0_vite@4.3.5:
     resolution: {integrity: sha512-WbJgGtsStgQhdm3EosYmIdTGbag5YQpZ3HXWUAPCDyoXI5qN6EY0V7NXq0lAmnv9hVQsvh0htbYcg0Or5Db9JQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -5657,15 +5657,15 @@ packages:
       kolorist: 1.7.0
       magic-string: 0.29.0
       ts-morph: 18.0.0
-      vite: 4.3.4
+      vite: 4.3.5
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: false
 
-  /vite/4.3.4:
-    resolution: {integrity: sha512-f90aqGBoxSFxWph2b39ae2uHAxm5jFBBdnfueNxZAT1FTpM13ccFQExCaKbR2xFW5atowjleRniQ7onjJ22QEg==}
+  /vite/4.3.5:
+    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5695,8 +5695,8 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vite/4.3.4_@types+node@18.14.6:
-    resolution: {integrity: sha512-f90aqGBoxSFxWph2b39ae2uHAxm5jFBBdnfueNxZAT1FTpM13ccFQExCaKbR2xFW5atowjleRniQ7onjJ22QEg==}
+  /vite/4.3.5_@types+node@18.14.6:
+    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5776,7 +5776,7 @@ packages:
       tinybench: 2.4.0
       tinypool: 0.4.0
       tinyspy: 1.1.1
-      vite: 4.3.4_@types+node@18.14.6
+      vite: 4.3.5_@types+node@18.14.6
       vite-node: 0.29.7_@types+node@18.14.6
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
