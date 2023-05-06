@@ -45,7 +45,7 @@
     "@kkkaoru/vite-config": "workspace:*",
     "@kkkaoru/vitest-config": "workspace:*",
     "@types/node": "18.14.6",
-    "@types/react": "18.2.5",
+    "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "next": "13.4.1",
     "react": "18.2.0",
