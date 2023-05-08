@@ -144,22 +144,22 @@ importers:
 
   packages/vite-config:
     specifiers:
-      '@vitejs/plugin-react-swc': 3.3.0
+      '@vitejs/plugin-react-swc': 3.3.1
       vite: 4.3.5
       vite-plugin-dts: 2.3.0
     dependencies:
-      '@vitejs/plugin-react-swc': 3.3.0_vite@4.3.5
+      '@vitejs/plugin-react-swc': 3.3.1_vite@4.3.5
       vite: 4.3.5
       vite-plugin-dts: 2.3.0_vite@4.3.5
 
   packages/vitest-config:
     specifiers:
-      '@vitejs/plugin-react-swc': 3.3.0
+      '@vitejs/plugin-react-swc': 3.3.1
       '@vitest/coverage-c8': 0.29.7
       vite: 4.3.5
       vitest: 0.29.7
     dependencies:
-      '@vitejs/plugin-react-swc': 3.3.0_vite@4.3.5
+      '@vitejs/plugin-react-swc': 3.3.1_vite@4.3.5
       '@vitest/coverage-c8': 0.29.7_vitest@0.29.7
       vitest: 0.29.7
     devDependencies:
@@ -1520,8 +1520,8 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: false
 
-  /@vitejs/plugin-react-swc/3.3.0_vite@4.3.5:
-    resolution: {integrity: sha512-Ycg+n2eyCOTpn/wRy+evVo859+hw7qCj9iaX5CMny6x1fx1Uoq0xBG+a98lFtwLNGfGEnpI0F26YigRuxCRkwg==}
+  /@vitejs/plugin-react-swc/3.3.1_vite@4.3.5:
+    resolution: {integrity: sha512-ZoYjGxMniXP7X+5ry/W1tpY7w0OeLUEsBF5RHFPmAhpgwwNWie8OF4056MRXRi9QgvYYoZPDzdOXGK3wlCoTfQ==}
     peerDependencies:
       vite: ^4
     dependencies:
