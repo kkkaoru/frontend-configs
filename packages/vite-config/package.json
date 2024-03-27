@@ -16,7 +16,7 @@
   "homepage": "https://github.com/kkkaoru/frontend-configs/tree/main/packages/vite-config",
   "license": "Apache-2.0",
   "dependencies": {
-    "@vitejs/plugin-react-swc": "3.4.0",
+    "@vitejs/plugin-react-swc": "3.6.0",
     "vite": "4.5.3",
     "vite-plugin-dts": "2.3.0"
   }
