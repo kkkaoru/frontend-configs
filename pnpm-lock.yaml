@@ -109,8 +109,8 @@ importers:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@5.59.7)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       eslint-plugin-jest:
-        specifier: 27.6.0
-        version: 27.6.0(@typescript-eslint/eslint-plugin@5.59.7)(eslint@8.57.0)(typescript@5.2.2)
+        specifier: 27.9.0
+        version: 27.9.0(@typescript-eslint/eslint-plugin@5.59.7)(eslint@8.57.0)(typescript@5.2.2)
       eslint-plugin-jsx-a11y:
         specifier: 6.7.1
         version: 6.7.1(eslint@8.57.0)
@@ -2945,11 +2945,11 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-jest@27.6.0(@typescript-eslint/eslint-plugin@5.59.7)(eslint@8.57.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-MTlusnnDMChbElsszJvrwD1dN3x6nZl//s4JD23BxB6MgR66TZlL064su24xEIS3VACfAoHV1vgyMgPw8nkdng==}
+  /eslint-plugin-jest@27.9.0(@typescript-eslint/eslint-plugin@5.59.7)(eslint@8.57.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-QIT7FH7fNmd9n4se7FFKHbsLKGQiw885Ds6Y/sxKgCZ6natwCsXdgPOADnYVxN2QrRweF0FZWbJ6S7Rsn7llug==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^5.0.0 || ^6.0.0
+      '@typescript-eslint/eslint-plugin': ^5.0.0 || ^6.0.0 || ^7.0.0
       eslint: ^7.0.0 || ^8.0.0
       jest: '*'
     peerDependenciesMeta:
