@@ -15,7 +15,7 @@
     "@commitlint/cli": "17.8.1",
     "@commitlint/config-conventional": "17.8.1",
     "@commitlint/cz-commitlint": "17.8.1",
-    "commitizen": "4.3.0",
+    "commitizen": "4.3.1",
     "husky": "8.0.3",
     "inquirer": "8.2.6",
     "lint-staged": "13.3.0"
