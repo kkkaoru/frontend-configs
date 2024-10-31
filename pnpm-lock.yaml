@@ -30,8 +30,8 @@ importers:
         specifier: workspace:*
         version: link:packages/vitest-config
       '@types/node':
-        specifier: 18.19.61
-        version: 18.19.61
+        specifier: 18.19.62
+        version: 18.19.62
       '@types/react':
         specifier: 18.3.12
         version: 18.3.12
@@ -867,8 +867,8 @@ packages:
   '@types/node@18.19.33':
     resolution: {integrity: sha512-NR9+KrpSajr2qBVp/Yt5TU/rp+b5Mayi3+OlMlcg2cVCfRmcG5PWZ7S4+MG9PZ5gWBoc9Pd0BKSRViuBCRPu0A==}
 
-  '@types/node@18.19.61':
-    resolution: {integrity: sha512-z8fH66NcVkDzBItOao+Nyh0fiy7CYdxIyxnNCcZ60aY0I+EA/y4TSi/S/W9i8DIQvwVo7a0pgzAxmDeNnqrpkw==}
+  '@types/node@18.19.62':
+    resolution: {integrity: sha512-UOGhw+yZV/icyM0qohQVh3ktpY40Sp7tdTW7HxG3pTd7AiMrlFlAJNUrGK9t5mdW0+ViQcFV74zCSIx9ZJpncA==}
 
   '@types/node@20.5.1':
     resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
@@ -4419,7 +4419,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@18.19.61':
+  '@types/node@18.19.62':
     dependencies:
       undici-types: 5.26.5
 
