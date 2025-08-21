@@ -200,19 +200,19 @@ importers:
     dependencies:
       '@vitejs/plugin-react-swc':
         specifier: 3.7.2
-        version: 3.7.2(@swc/helpers@0.5.2)(vite@4.5.5(@types/node@20.5.1))
+        version: 3.7.2(@swc/helpers@0.5.2)(vite@4.5.14(@types/node@20.5.1))
       vite:
-        specifier: 4.5.5
-        version: 4.5.5(@types/node@20.5.1)
+        specifier: 4.5.14
+        version: 4.5.14(@types/node@20.5.1)
       vite-plugin-dts:
         specifier: 2.3.0
-        version: 2.3.0(@types/node@20.5.1)(rollup@3.29.4)(vite@4.5.5(@types/node@20.5.1))
+        version: 2.3.0(@types/node@20.5.1)(rollup@3.29.4)(vite@4.5.14(@types/node@20.5.1))
 
   packages/vitest-config:
     dependencies:
       '@vitejs/plugin-react-swc':
         specifier: 3.7.2
-        version: 3.7.2(@swc/helpers@0.5.2)(vite@4.5.5(@types/node@18.19.33))
+        version: 3.7.2(@swc/helpers@0.5.2)(vite@4.5.14(@types/node@18.19.33))
       '@vitest/coverage-c8':
         specifier: 0.33.0
         version: 0.33.0(vitest@0.34.6)
@@ -221,8 +221,8 @@ importers:
         version: 0.34.6
     devDependencies:
       vite:
-        specifier: 4.5.5
-        version: 4.5.5(@types/node@18.19.33)
+        specifier: 4.5.14
+        version: 4.5.14(@types/node@18.19.33)
 
 packages:
 
@@ -3790,8 +3790,8 @@ packages:
     peerDependencies:
       vite: '>=2.9.0'
 
-  vite@4.5.5:
-    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
+  vite@4.5.14:
+    resolution: {integrity: sha512-+v57oAaoYNnO3hIu5Z/tJRZjq5aHM2zDve9YZ8HngVHbhk66RStobhb1sqPMIPEleV6cNKYK4eGrAbE9Ulbl2g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4875,17 +4875,17 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react-swc@3.7.2(@swc/helpers@0.5.2)(vite@4.5.5(@types/node@18.19.33))':
+  '@vitejs/plugin-react-swc@3.7.2(@swc/helpers@0.5.2)(vite@4.5.14(@types/node@18.19.33))':
     dependencies:
       '@swc/core': 1.7.40(@swc/helpers@0.5.2)
-      vite: 4.5.5(@types/node@18.19.33)
+      vite: 4.5.14(@types/node@18.19.33)
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitejs/plugin-react-swc@3.7.2(@swc/helpers@0.5.2)(vite@4.5.5(@types/node@20.5.1))':
+  '@vitejs/plugin-react-swc@3.7.2(@swc/helpers@0.5.2)(vite@4.5.14(@types/node@20.5.1))':
     dependencies:
       '@swc/core': 1.7.40(@swc/helpers@0.5.2)
-      vite: 4.5.5(@types/node@20.5.1)
+      vite: 4.5.14(@types/node@20.5.1)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -8185,7 +8185,7 @@ snapshots:
       mlly: 1.6.1
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 4.5.5(@types/node@18.19.33)
+      vite: 4.5.14(@types/node@18.19.33)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -8196,7 +8196,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@2.3.0(@types/node@20.5.1)(rollup@3.29.4)(vite@4.5.5(@types/node@20.5.1)):
+  vite-plugin-dts@2.3.0(@types/node@20.5.1)(rollup@3.29.4)(vite@4.5.14(@types/node@20.5.1)):
     dependencies:
       '@babel/parser': 7.21.8
       '@microsoft/api-extractor': 7.34.4(@types/node@20.5.1)
@@ -8208,13 +8208,13 @@ snapshots:
       kolorist: 1.7.0
       magic-string: 0.29.0
       ts-morph: 18.0.0
-      vite: 4.5.5(@types/node@20.5.1)
+      vite: 4.5.14(@types/node@20.5.1)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@4.5.5(@types/node@18.19.33):
+  vite@4.5.14(@types/node@18.19.33):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.31
@@ -8223,7 +8223,7 @@ snapshots:
       '@types/node': 18.19.33
       fsevents: 2.3.2
 
-  vite@4.5.5(@types/node@20.5.1):
+  vite@4.5.14(@types/node@20.5.1):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.31
@@ -8255,7 +8255,7 @@ snapshots:
       strip-literal: 1.0.1
       tinybench: 2.6.0
       tinypool: 0.7.0
-      vite: 4.5.5(@types/node@18.19.33)
+      vite: 4.5.14(@types/node@18.19.33)
       vite-node: 0.34.6(@types/node@18.19.33)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
